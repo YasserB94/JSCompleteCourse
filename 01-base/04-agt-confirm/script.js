@@ -12,5 +12,29 @@
 (function() {
 
     // your code here
+    let answersConfirmed = false
+    let age;
+    let gender;
+    let town;
+
+
+    askQuestions()
+
+
+    function askQuestions(){
+    if(!answersConfirmed){
+        age = prompt('How young are you:');
+        gender = prompt('Please specify your gender:');
+        town = prompt('What is the name of your home town ?')
+
+        if(confirm('Is the following data correct ?\r\n Your age is:' + age + '\r\n Your gender is:' + gender + '\r\n Your home town is called:' + town)){
+            answersConfirmed = true;
+        }else{
+            askQuestions();
+        }
+
+        
+    }}
+
 
 })();
