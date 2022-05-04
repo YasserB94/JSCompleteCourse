@@ -12,5 +12,11 @@
 (function() {
 
   // your code here
+  let wantsCake = confirm("Would you like some cake ?")
+  if(wantsCake){
+    alert('Happy Birthday!')
+  }else{
+    alert('More Cake for me then :p !')
+  }
 
 })();
