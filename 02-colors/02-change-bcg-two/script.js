@@ -10,7 +10,14 @@
 // You will have time to focus on it later.
 
 (function() {
-
+    let btnToRun = document.getElementById('run');
+    let inputColor = document.getElementById('color');
+    
     // your code here
-
+    btnToRun.addEventListener('click',changeBackground)
+    alert('Do not press Enter, Click the button!!!!')
+    function changeBackground(){
+        let newColor = inputColor.value;
+      document.body.style.backgroundColor = newColor;
+    }
 })();
