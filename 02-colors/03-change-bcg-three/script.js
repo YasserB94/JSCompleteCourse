@@ -26,6 +26,7 @@
     for(i = 0; i < hexLength; i++){
         newColor += hex[Math.floor(Math.random()*hex.length)]
     }
+    //This color gets turned into RGB o.O
     document.body.style.backgroundColor = newColor;
 }
 })();
