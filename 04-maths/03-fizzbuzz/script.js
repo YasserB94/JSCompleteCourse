@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
+/*%	Modulus operator. Returns remainder of two operands.-*/
     // your code here
     for(i = 0;i<=100;i++){
         //check if number is a multiple of 3 and 5
