@@ -18,26 +18,44 @@
     let target = document.getElementById('target');
     const btnRun = document.getElementById('run');
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    let userInputYear = document.getElementById('year');
-    let monthsThatHaveFridayThe13th = [];
-    btnRun.addEventListener('click',updateTarget)
+    const dayToLookFor = 13;
+    let userInputField = document.getElementById('year');
+    btnRun.addEventListener('click', updateTarget)
     //Logic to see if it's friday the 13th
     let date = new Date();
-
-
-    function updateTarget(){
-        //Set the year from users input as the year date will look trough
+    function updateTarget() {
+        //Get the year that has been added and store it
+        let userInputYear = userInputField.value;
+        //Array to save months that have friday the 13th
+        let monthsThatHaveFridayThe13th = [];
+        //Assign the year to the date
         date.setFullYear(userInputYear);
-        //Loop trough everymonth
-        
-        for(i = 0;i < months.length;i++){
-            
-            console.log(date.getDay())    
+        //Set The day to the 13th
+        date.setDate(dayToLookFor);
+        for (month = 0; month < months.length; month++) {
+            //Assign the month to the date
+            date.setMonth(month)
+            // console.log("Year: " + date.getFullYear() + "Month:" + date.getMonth() + "Day:" + date.getDay())
+            //Day 5 is friday, check if day = 5 checks if its a friday
+            if (date.getDay() === 5) {
+                // console.log("Month:" + months[month] + "Has a friday 13");
+                //Add the current month to the array that contains all months that have friday the 13th(Using the months array to get a textual value)
+                monthsThatHaveFridayThe13th.push(months[month])
+            }
         }
+        //Ended checking for friday 13 in every month
+        //Create a message for the user
+        let responseToUser = "In: " + userInputYear + " ";
+        //Read all the months that have been added and show them
+        for (i = 0; i < monthsThatHaveFridayThe13th.length; i++) {
+            // console.log(monthsThatHaveFridayThe13th[i] + " Has a Friday the 13th")
+            responseToUser += monthsThatHaveFridayThe13th[i] + ",";
+        }
+        if (monthsThatHaveFridayThe13th.length > 1) {
+            responseToUser += " have a friday the 13th";
+        }else{
+            responseToUser += " has a friday the 13th";
+        }
+        target.innerHTML = responseToUser;
     }
-
-
-
-
-
 })();
