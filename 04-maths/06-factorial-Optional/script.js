@@ -16,6 +16,22 @@
     document.getElementById("run").addEventListener("click", function() {
 
         // your code here
+        //Get the user input
+        const number = document.getElementById('number').value;
+        console.log("User input:" + number)
+        //Check if input is a number
+        if(isNaN(number)){
+            console.log('Please provide a number!')
+        }else{
+            console.log(number + ' Is a number')
+            //Calculate factorial
+            let factorial = 1;
+            for(i=1;i<=number;i++){
+                factorial = factorial*i;
+            }
+            // log the factorial
+            console.log("The factorial for: " + number + " is: " + factorial)
+        }
 
     });
 
