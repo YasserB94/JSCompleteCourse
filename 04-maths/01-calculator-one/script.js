@@ -21,7 +21,7 @@ const target = document.getElementById('target');
         const opOneValue = parseInt(opOne.value);
         const opTwoValue = parseInt(opTwo.value);
         //Calculate result
-        let result = (opOneValue+opOneValue);
+        let result = (opOneValue+opTwoValue);
         //Cast result to target
         target.innerHTML = opOneValue + "+"  + opTwoValue + " = " + result;
 
@@ -33,7 +33,7 @@ const target = document.getElementById('target');
         const opOneValue = parseInt(opOne.value);
         const opTwoValue = parseInt(opTwo.value);
         //Calculate result
-        let result = (opOneValue-opOneValue);
+        let result = (opOneValue-opTwoValue);
         //Cast result to target
         target.innerHTML = opOneValue + "-"  + opTwoValue + " = " + result;
     });
@@ -44,7 +44,7 @@ const target = document.getElementById('target');
         const opOneValue = parseInt(opOne.value);
         const opTwoValue = parseInt(opTwo.value);
         //Calculate result
-        let result = (opOneValue*opOneValue);
+        let result = (opOneValue*opTwoValue);
         //Cast result to target
         target.innerHTML = opOneValue + "*"  + opTwoValue + " = " + result;
     });
@@ -55,7 +55,7 @@ const target = document.getElementById('target');
         const opOneValue = parseInt(opOne.value);
         const opTwoValue = parseInt(opTwo.value);
         //Calculate result
-        let result = (opOneValue/opOneValue);
+        let result = (opOneValue/opTwoValue);
         //Cast result to target
         target.innerHTML = opOneValue + "/"  + opTwoValue + " = " + result;
     });
