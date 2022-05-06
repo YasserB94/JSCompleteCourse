@@ -16,14 +16,21 @@ const formInputField = document.getElementById('numbers');*/
     document.getElementById("run").addEventListener("click", function () {
         //Get The content of the input field
         const input = document.getElementById('numbers').value;
-        console.log("input:" + input);
-        //Split the string and add them to an array
+        //Split the string after every ,  
+        //.map() will build the array so every element from .split will be processed by .map to give it it's own spot in the array
+        //.map(Number) is a parameter of the .map function
+        //Number tells .map to try and turn whatever .map receives into a number
+        //in this case it will receive strings that contain numbers
+        //And actually convert it into numbers
         const numberArray = input.split(', ').map(Number);
         console.log('Array of numbers:' + numberArray);
         //Sort the array since its numbers we have to specify how to sort it
+        //.Sort will specify alphabetical, with a function we can tell it to sort
+        //numbers in an ascending order
         numberArray.sort(function(a,b){
             return a-b;
         });
+        //show the sorted array in the console
         console.log('Array of numbers sorted:' + numberArray)
     });
 })();
