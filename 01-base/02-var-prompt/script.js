@@ -12,9 +12,11 @@
 (function() {
 
     // your code here
-    let userName = prompt("Please enter your name:")
-    
+    //As the username and store it in a constant
+    const userName = prompt("Please enter your name:")
+    //Display a string containing the constant
     alert("Hello," + userName + "!.")
 
 
 })();
+s

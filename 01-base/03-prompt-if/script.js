@@ -10,13 +10,13 @@
 // You will have time to focus on it later.
 
 (function() {
-
   // your code here
-  let wantsCake = confirm("Would you like some cake ?")
+  //Yes or no questionm confirm returns true or false - Store it in a constant
+  const wantsCake = confirm("Would you like some cake ?")
+  //See if the user answered true or false and show the appropriate response
   if(wantsCake){
-    alert('Happy Birthday!')
+    alert('Congratulations!')
   }else{
     alert('More Cake for me then :p !')
   }
-
 })();

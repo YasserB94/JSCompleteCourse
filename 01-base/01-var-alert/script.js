@@ -12,6 +12,8 @@
 (function() {
 
     // your code here
-    let helloWorld = "Hello World!"
+    //Add a strign to a constant
+    const helloWorld = "Hello World!"
+    //Display the constant in an alert box
     alert(helloWorld)
 })();
