@@ -9,9 +9,35 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+//Let's get the current date
+const currentDate = new Date();
+//Let's show it in a textual format on the targt field
+document.getElementById('target').innerHTML = currentDate.toString();
+/*
+const date = new Date(2019, 0, 23, 17, 23, 42)
+toString gives you Wed Jan 23 2019 17:23:42 GMT+0800 (Singapore Standard Time)
+toDateString gives you Wed Jan 23 2019
+toLocaleString gives you 23/01/2019, 17:23:42
+toLocaleDateString gives you 23/01/2019
+toGMTString gives you Wed, 23 Jan 2019 09:23:42 GMT
+toUTCString gives you Wed, 23 Jan 2019 09:23:42 GMT
+toISOString gives you 2019-01-23T09:23:42.079Z
+*/
+
+
+
+
+
+
+
+
+
+/*----OBSOLETE---*/
+/*
 (function() {
 
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+
 
     // your code here
     let target = document.getElementById('target');
@@ -41,3 +67,4 @@
     
 
 })();
+*/

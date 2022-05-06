@@ -9,23 +9,12 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
-
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
-
-    // your code here
-    //Sorry got to copy paste that stuff
-    let target = document.getElementById('target');
-    //Get System date ? since 1970 apparently ?
-    const date = new Date();
-    // Does return current hour ???
-    let currentHour = date.getHours();
-    // Returns current minutes based on timezone
-    let currentMinutes = date.getMinutes();
-    if(currentHour <= 18 && currentMinutes<=30 ){
-        target.innerHTML = "<i>Hello</i> it's: " + currentHour + ":" + currentMinutes;
-    }else{
-        target.innerHTML = "<i>Good Evening</i> it's: " + currentHour + ":" + currentMinutes;
-    }
-
-})();
+//Let's get the time - First we need a new Date
+const currentDate = new Date();
+if(currentDate.getHours() <= 18 && currentDate.getMinutes() < 30){
+    //If its before 18h and before 30 minutes
+    document.getElementById('target').innerHTML = "<i>Hello</i>"
+}else{
+    // if its not
+    document.getElementById('target').innerHTML = "<i>Good Evening</i>"
+}

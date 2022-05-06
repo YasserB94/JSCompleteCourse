@@ -9,6 +9,17 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+
+//Let's get the time - First we need a new date
+const currentDate = new Date();
+//Let's see if its before or after 18h and change the text accordingly
+if(currentDate.getHours()<9){
+    //if the hour is smaller than 18
+    document.getElementById('target').innerHTML = "<i>Hello</i>"
+}else{
+    document.getElementById('target').innerHTML = "<i>Good Evening</i>"
+}
+/*
 (function() {
 
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
@@ -31,3 +42,4 @@
     
 
 })();
+*/
