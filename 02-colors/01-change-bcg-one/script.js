@@ -12,58 +12,25 @@
 
 
 // your code here
-
-
-
-let btnRed = document.getElementById('red');
-let btnGreen = document.getElementById('green');
-let btnYellow = document.getElementById('yellow');
-let btnBlue = document.getElementById('blue');
-btnRed.addEventListener('click',changeBgToRed);
-btnGreen.addEventListener('click',changeBgToGreen);
-btnYellow.addEventListener('click',changeBgToYellow);
-btnBlue.addEventListener('click',changeBgToBlue);
+//Let's see if the visitor clicks a button
+const btnRed = document.getElementById('red').addEventListener('click',changeBgToRed);
+const btnGreen = document.getElementById('green').addEventListener('click',changeBgToGreen);
+const btnYellow = document.getElementById('yellow').addEventListener('click',changeBgToYellow);
+const btnBlue = document.getElementById('blue').addEventListener('click',changeBgToBlue);
+//Let's add the functions that get executed by the buttons
 function changeBgToRed(){
+    //Change the body's background color
     document.body.style.backgroundColor = "red"
 }
 function changeBgToGreen(){
+        //Change the body's background color
     document.body.style.backgroundColor = "green"
 }
 function changeBgToYellow(){
+        //Change the body's background color
     document.body.style.backgroundColor = "yellow"
 }
 function changeBgToBlue(){
+        //Change the body's background color
     document.body.style.backgroundColor = "blue"
 }
-// let buttons = []
-// buttons.concat(document.getElementsByTagName('button'))
-// for(i in buttons){
-//     // console.log(buttons[i].getAttribute('id'))
-//     // buttons[i].addEventListener('click',test())
-//     console.log(buttons[i])
-// }
-//     let buttons = [document.getElementsByTagName('button')]
-//     console.log(buttons)
-//     buttons.forEach(btn => {
-//         console.log(btn)
-//         console.log('NEXT')
-//         btn.innerHTML = 'no'
-
-// //     });
-// function test(){
-//     console.log('lalal')
-// }
-// function changeBackgroundColor($clr) {
-//     console.log($clr)
-//     switch ($clr) {
-//         case red:
-//             document.body.style.backgroundColor = "red";
-//         case green:
-//             document.body.style.backgroundColor = "green";
-//         case yellow:
-//             document.body.style.backgroundColor = "yellow";
-//         case blue:
-//             document.body.style.backgroundColor = "blue";
-
-//     }
-// }

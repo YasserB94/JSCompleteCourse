@@ -8,16 +8,12 @@
 
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
+//Let's see if the user clicks the button
+const btnRun = document.getElementById('run').addEventListener('click',changeBgColor);
 
-(function() {
-    let btnToRun = document.getElementById('run');
-    let inputColor = document.getElementById('color');
-    
-    // your code here
-    btnToRun.addEventListener('click',changeBackground)
-    alert('Do not press Enter, Click the button!!!!')
-    function changeBackground(){
-        let newColor = inputColor.value;
-      document.body.style.backgroundColor = newColor;
-    }
-})();
+function changeBgColor(){
+  //let's see what the user has put in the inputfield
+  const color = document.getElementById('color').value;
+  //let's change the background to this value
+  document.body.style.backgroundColor = color;
+}
