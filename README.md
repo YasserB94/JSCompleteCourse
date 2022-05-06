@@ -7,5 +7,15 @@ If you are stuck feel free to have a look at how I did it, I tried to explain ev
 Don't keep this open when you are writing your own, but feel free to have a look at how I tackled the problem
 Hope it helps!
 If you find any mistakes, or have a simpler way to solve the objective please dm me on discord, I look forward to hear from you!
-#### 01 - base ####
-- Code has been cleaned up
+#### Clean explanitory code ####
+##### 01 - base #####
+- [X] [Var Alert](https://github.com/YasserB94/JSCompleteCourse/blob/main/01-base/01-var-alert/script.js);
+- [X] [Var Prompt](https://github.com/YasserB94/JSCompleteCourse/tree/main/01-base/02-var-prompt)
+- [X] [Prompt If](https://github.com/YasserB94/JSCompleteCourse/blob/main/01-base/03-prompt-if/script.js)
+- [X] [AGT Confirm](https://github.com/YasserB94/JSCompleteCourse/blob/main/01-base/04-agt-confirm/script.js)
+##### 02 - colors #####
+- [X] [Change BCG One](https://github.com/YasserB94/JSCompleteCourse/blob/main/02-colors/01-change-bcg-one/script.js)
+- [X] [Change BCG Two](https://github.com/YasserB94/JSCompleteCourse/blob/main/02-colors/02-change-bcg-two/script.js)
+- [X] [Change BCG Three](https://github.com/YasserB94/JSCompleteCourse/tree/main/02-colors/03-change-bcg-three)
+##### 03 - dates #####
+- [ ] [Title by Hour one](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/01-title-by-hour-one/script.js)
