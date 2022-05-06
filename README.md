@@ -28,5 +28,5 @@
 - [X] [Calculator Two](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/02-calculator-two/script.js)
 - [X] [FizzBuzz](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/03-fizzbuzz/script.js)
 - [X] [Even Square Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/04-even-square-Optional/script.js)
-- [ ] [Sort Numbers Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/05-sort-numbers-Optional/script.js)
-- [ ] [Factorial Optional]()https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/06-factorial-Optional/script.js
+- [X] [Sort Numbers Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/05-sort-numbers-Optional/script.js)
+- [X] [Factorial Optional]()https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/06-factorial-Optional/script.js
