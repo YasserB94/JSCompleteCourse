@@ -20,7 +20,7 @@
 ##### 03 - dates #####
 - [X] [Title by Hour one](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/01-title-by-hour-one/script.js)
 - [X] [Title by Hour two](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/02-title-by-hour-two/script.js)
-- [ ] [Age by select](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/03-age-by-select/script.js) __Apparently month and day calculation is still not on point__
+- [X] [Age by select](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/03-age-by-select/script.js) __Months have 31 days! please dm me if you found a better or quicker solution to this one i would love to learn!__
 - [X] [Locale date Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/04-locale-date-Optional/script.js)
 - [X] [Get Spooky Firdays Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/05-get-spooky-fridays-Optional/script.js)
 #### 04 - math ####
