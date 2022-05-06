@@ -23,3 +23,10 @@
 - [X] [Age by select](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/03-age-by-select/script.js)
 - [X] [Locale date Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/04-locale-date-Optional/script.js)
 - [X] [Get Spooky Firdays Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/05-get-spooky-fridays-Optional/script.js)
+#### 04 - math ####
+- [X] [Calculator One](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/01-calculator-one/script.js)
+- [X] [Calculator Two](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/02-calculator-two/script.js)
+- [ ] [FizzBuzz](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/03-fizzbuzz/script.js)
+- [ ] [Even Square Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/04-even-square-Optional/script.js)
+- [ ] [Sort Numbers Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/05-sort-numbers-Optional/script.js)
+- [ ] [Factorial Optional]()https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/06-factorial-Optional/script.js
