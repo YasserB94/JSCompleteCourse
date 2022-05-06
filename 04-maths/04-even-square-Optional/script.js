@@ -16,9 +16,8 @@ const target = document.getElementById('target');
         // your code here
         //For loop to go trough numbers 1 to 21
         for(i = 1;i<=21;i++){
-            let result = i*i;
-            console.log(result)
-            target.innerHTML = "The square of: " + i + " = " + result;
+            //a square is a number multiplied by itself, so let's show those in the console
+            console.log(i*i)
         }
     });
 
