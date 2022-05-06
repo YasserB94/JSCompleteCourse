@@ -16,6 +16,9 @@ Array.from(document.querySelectorAll("button.operator")).forEach(function ($btn)
         performOperation($btn.id);
     });
 });
+//We need a variable that is a function that accepts an operation
+//The ForEach instance that creates an eventlistener to the buttons will use this function as a template
+//And we want the button to be able to pass it's ID into the function
 var performOperation = function (operation) {
     //The user has clicked! let's get our two operants
     console.log(operation)
