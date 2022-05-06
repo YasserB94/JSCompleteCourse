@@ -11,7 +11,6 @@
 //Let's see if the button get's clicked
 const btnRun = document.getElementById('run').addEventListener('click',calculateAge);
 
-
 //Let's write the function to be ran when the button is clicked
 function calculateAge(){
     //Let's get the values the user selected
@@ -24,8 +23,6 @@ function calculateAge(){
     const dobDate = new Date(dobYear,dobMonth,dobDay);
     //Let's use the dates to calculate the user's age
     const ageYears = currentDate.getFullYear() - dobDate.getFullYear();
-    console.log(currentDate.getFullYear())
-    console.log(dobDate.getFullYear())
     //The days are in an array from 0-6 and months in an array from 0-11
     //So we add one to get a correct value for us mortals
     const ageMonths = currentDate.getMonth() - dobDate.getMonth() +1;
@@ -36,6 +33,27 @@ function calculateAge(){
 
 
 /*-----OBSOLITE-----
+//New Try 
+//Let's write the function to be ran when the button is clicked
+function calculateAge(){
+    //Let's get the values the user selected
+    const dobDay = document.getElementById('dob-day').value;
+    const dobMonth = document.getElementById('dob-month').value;
+    const dobYear = document.getElementById('dob-year').value;
+    //Let's get the current date
+    const currentDate = new Date();
+    //Let's create a date that holds the user's date of birth
+    const dobDate = new Date(dobYear,dobMonth,dobDay);
+    //Let's create a date that holds the user's age
+    const ageDate = new Date(currentDate.getFullYear()-dobDate.getFullYear(),currentDate.getMonth()-currentDate.getMonth(),currentDate.getDay()-dobDate.getDay())
+
+    //Let's get the user's age data
+    console.log(ageDate.toDateString())
+
+}
+
+
+//First Try
 (function() {
 
     // your code here
