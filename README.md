@@ -18,4 +18,8 @@ If you find any mistakes, or have a simpler way to solve the objective please dm
 - [X] [Change BCG Two](https://github.com/YasserB94/JSCompleteCourse/blob/main/02-colors/02-change-bcg-two/script.js)
 - [X] [Change BCG Three](https://github.com/YasserB94/JSCompleteCourse/tree/main/02-colors/03-change-bcg-three)
 ##### 03 - dates #####
-- [ ] [Title by Hour one](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/01-title-by-hour-one/script.js)
+- [X] [Title by Hour one](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/01-title-by-hour-one/script.js)
+- [X] [Title by Hour two](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/02-title-by-hour-two/script.js)
+- [X] [Age by select](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/03-age-by-select/script.js)
+- [X] [Locale date Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/04-locale-date-Optional/script.js)
+- [X] [Get Spooky Firdays Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/03-dates/05-get-spooky-fridays-Optional/script.js)
