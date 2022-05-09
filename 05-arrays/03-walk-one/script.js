@@ -27,5 +27,11 @@
     ];
 
     // your code here
-
+    document.getElementById('run').addEventListener('click',()=>{
+        //loop trough the array
+        for(i = 0;i<fruits.length;i++){
+            //log current item
+            console.log(fruits[i])
+        }
+    })
 })();

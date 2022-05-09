@@ -90,5 +90,9 @@
     ];
 
     // your code here
-
+    document.getElementById('run').addEventListener('click',()=>{
+        //using reduce -- 0 sets initialValue to 0 ?
+        var totalAge = people.reduce((initialValue,person)=>initialValue+person.age,0)
+        console.log(totalAge);
+    })
 })();

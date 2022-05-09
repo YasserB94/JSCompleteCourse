@@ -25,5 +25,16 @@
     ];
 
     // your code here
-
+    document.getElementById('run').addEventListener('click', ()=> {
+        //Remove the first item from the array
+        fruits.shift();
+        //Remove the last item from the array
+        fruits.pop();
+        //Add banana at start of array
+        fruits.unshift('banana');
+        //Add kiwi at the end of the array
+        fruits.push('kiwi');
+        //Log the array in console to see if the result is as expected
+        console.log(fruits)
+    })
 })();

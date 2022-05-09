@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     var people = [
         {
@@ -90,5 +90,18 @@
     ];
 
     // your code here
+    document.getElementById('run').addEventListener('click', () => {
+        //Using find()
+        const personToFind = people.find(({ firstname, lastname }) => firstname === 'Jean' && lastname === 'Dupont')
+        console.log(`Email: ${personToFind.email}`)
+        console.log(`index: ${people.indexOf(personToFind)}`)
 
+        /*
+        people.forEach(person => {
+            if(person.lastname==='Dupont' && person.firstname ==='Jean'){
+                console.log(person.email);
+                console.log(`Index: ${people.indexOf(person)}`)
+            }
+        });*/
+    })
 })();

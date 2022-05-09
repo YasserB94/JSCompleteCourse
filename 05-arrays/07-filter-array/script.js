@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     var people = [
         {
@@ -90,5 +90,27 @@
     ];
 
     // your code here
+
+    document.getElementById('run').addEventListener('click', () => {
+
+
+        //using filter
+        const peopleOver18 = people.filter((person) => {
+            return person.age >= 18;
+        }
+        );
+        console.log(peopleOver18);
+    })
+
+    /*
+        var peopleOver18 = [];
+        people.forEach(person => {
+            if (person.age > 18) {
+                peopleOver18.push(person);
+            }
+        });
+        peopleOver18.forEach(person => {
+            console.log(`${person.firstname} is over 18`)
+        })*/
 
 })();
