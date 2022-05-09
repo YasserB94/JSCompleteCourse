@@ -30,3 +30,16 @@
 - [X] [Even Square Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/04-even-square-Optional/script.js)
 - [X] [Sort Numbers Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/05-sort-numbers-Optional/script.js)
 - [X] [Factorial Optional]()https://github.com/YasserB94/JSCompleteCourse/blob/main/04-maths/06-factorial-Optional/script.js
+#### 05 - Arrays ####
+- [X] [Get Element](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/01-get-element/script.js)
+- [X] [Manipulate Array](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/02-manipulate-array/script.js)
+- [X] [Walk One](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/03-walk-one/script.js)
+- [X] [Walk Two](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/04-walk-two/script.js)
+- [X] [Walk Three](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/05-walk-three/script.js)
+- [X] [Find in Array](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/06-find-in-array/script.js)
+- [X] [Filter Array](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/07-filter-array/script.js)
+- [X] [Array Includes](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/08-array-includes/script.js)
+- [X] [Reduce Array](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/09-reduce-array/script.js)
+- [X] [DeDupe Array Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/10-dedupe-array-Optional/script.js)
+- [X] [Rand Array Stats Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/11-rand-array-stats-Optional/script.js)
+#### 06 - DOM ####
