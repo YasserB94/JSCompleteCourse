@@ -44,7 +44,7 @@
 - [X] [Rand Array Stats Optional](https://github.com/YasserB94/JSCompleteCourse/blob/main/05-arrays/11-rand-array-stats-Optional/script.js)
 #### 06 - DOM ####
 - [X] [Select One](https://github.com/YasserB94/JSCompleteCourse/blob/main/06-dom/01-select-one/script.js)
-- [X] [Select Two]https://github.com/YasserB94/JSCompleteCourse/blob/main/06-dom/02-select-two/script.js)
+- [X] [Select Two](https://github.com/YasserB94/JSCompleteCourse/blob/main/06-dom/02-select-two/script.js)
 - [X] [Select Three](https://github.com/YasserB94/JSCompleteCourse/blob/main/06-dom/03-select-three/script.js)
 - [X] [Attr Create](https://github.com/YasserB94/JSCompleteCourse/blob/main/06-dom/04-attr-create/script.js)
 - [X] [Hover Image](https://github.com/YasserB94/JSCompleteCourse/blob/main/06-dom/05-hover-image/script.js)
