@@ -25,7 +25,6 @@
         "raisin",
         "cerise",
     ];
-
     // your code here
     document.getElementById('run').addEventListener('click',()=>{
         //Show vevery element in the console using forEach
