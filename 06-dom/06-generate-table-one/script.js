@@ -12,5 +12,14 @@
 (function() {
 
     // your code here
+    //Create the table
+    const table = document.createElement('table');
+    //add 10 rows and add the count inside of them
+    for(i=0;i<10;i++){
+        table.insertRow().innerHTML = `Row number: ${i+1}`
+    }
+    //Add the table to the html
+    document.getElementById('target').appendChild(table)
+
 
 })();

@@ -12,5 +12,14 @@
 (function() {
 
     // your code here
-
+    //Create new image element
+    const newImageElement = document.createElement('img')
+    //Add source from source
+    newImageElement.src = document.getElementById('source').getAttribute('data-image')
+    //No alt tag, no love!
+    newImageElement.alt = 'Random kitten generator';
+    //Add the image to the target
+    document.getElementById('target').append(newImageElement)
+    //Remove original element
+    document.getElementById('source').remove()
 })();

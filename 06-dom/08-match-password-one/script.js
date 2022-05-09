@@ -12,5 +12,15 @@
 (function() {
 
     // your code here
-
+    document.getElementById('run').addEventListener('click',()=>{
+        const passOne = document.getElementById('pass-one');
+        const passTwo = document.getElementById('pass-two');
+        if(passOne.value != passTwo.value){
+            passOne.style.border = '.1rem solid red';
+            passTwo.style.border = '.1rem solid red';
+        }else{
+            passOne.style.border = '.1rem solid silver';
+            passTwo.style.border = '.1rem solid silver';
+        }
+    })
 })();
