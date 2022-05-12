@@ -22,7 +22,7 @@ async function displayHeros() {
     for (i = 0; i < heroes.length; i++) {
         const hero = heroes[i];
         const name = hero.name;
-        const alterego = hero.alterego;
+        const alterego = hero.alterEgo;
         const heroPowers = hero.abilities.join(', ');
         document.getElementById('target').appendChild(createHeroHtml(name, alterego, heroPowers));
     }
@@ -74,9 +74,3 @@ function createHeroHtml(name, alterego, powers) {
 
 //dustinbred .com
 //INPUT SANITATION
-
-
-
-
-const myRandomText = document.createElement('p');
-myRandomText.innerHTML = 'Some random text';
