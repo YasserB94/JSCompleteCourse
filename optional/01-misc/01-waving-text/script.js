@@ -10,7 +10,6 @@
 // You will have time to focus on it later.
 const target = document.getElementById('target');
 var charIndex = 0;
-
 wavyString(target,10)
 function wavyString(parent,waveSize){
     const wrapper = 'span';
@@ -46,7 +45,6 @@ function wavyString(parent,waveSize){
     },100)
 
 }
-
 function changeFontSize(string,size){
     string.style.fontSize = `${size}rem`
 }
